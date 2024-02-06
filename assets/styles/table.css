@@ -1,0 +1,51 @@
+.table_container{
+    display: flex;
+    justify-content: center; 
+}
+
+caption{
+    font-style: italic;
+    text-decoration: underline;
+    padding: 8px;
+    text-align: left;
+}
+
+table{
+    width: 80%;  
+    margin: 5%;
+    table-layout: fixed;
+}
+
+td,th{
+    padding: 1%;
+    text-align: center;
+}
+
+h4{
+    padding: 3%;
+    font-size: 20px;
+}
+
+.contact_info{
+    display: flex;
+    justify-content: space-between;
+}
+.emphasis{
+    font-weight: bold;
+}
+
+section p{
+    padding: 2% 5%;
+}
+
+
+
+
+
+
+/*
+table, tr, th, td{
+    border: 1px solid black;
+}
+*/
+ 

@@ -1,0 +1,42 @@
+/* ------------------------- list ----------------------------- */
+
+.rules_list{
+    padding: 5%;
+}
+
+.subtitle_list {
+    font-size: 120%;
+}
+
+.secondary_list_ordered, .secondary_list_unordered{
+    padding: 0% 6%;
+}
+
+.secondary_list_ordered li{
+    list-style-type:lower-latin;
+}
+
+.secondary_list_unordered li{
+    list-style-type: circle;
+
+}
+
+dt {
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+dd{
+    margin: 2% 0%;
+}
+
+li span{
+    font-weight: bold;
+}
+
+.main_list_ordered{
+    list-style-position: inside;
+}
+.main_list_ordered li, .secondary_list_ordered li{
+    padding: 10px 0px;;
+}

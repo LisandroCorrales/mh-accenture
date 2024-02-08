@@ -184,3 +184,76 @@ footer p{
     color: #ac272d;
 }
 
+/*---------form---------*/
+
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout_form{
+    padding: 3%;
+    border: 1px solid #111010;
+    margin: 2% 0%;
+    width: 70%;
+}
+.two_columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.one_column{
+    padding: 20px;
+}
+
+fieldset{
+    margin: 10px;
+}
+
+fieldset label{
+    display: flex;
+    padding: 10px 30px;
+}
+
+.schools div{
+    display: inline-block;
+}
+
+.schools{
+    width: 100%;
+    display: flex;
+    padding: 5px 30px;
+    border: 1px solid #111010;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h4{
+    padding: 10px;
+}
+
+.registration_paragraph{
+    padding: 8px 10px;
+}
+
+.submit{
+    background-color: #111010;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color: #fbfbfb;
+}
+.submit:hover{
+    background-color: #fbfbfb;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    font-size:medium;
+    font-weight: bold;
+    color: #111010;
+}
